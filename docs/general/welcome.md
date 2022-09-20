@@ -10,14 +10,22 @@
     <a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/npm/dt/discord.js.svg?maxAge=3600" alt="NPM downloads" /></a>
     <a href="https://travis-ci.org/discordjs/discord.js"><img src="https://travis-ci.org/discordjs/discord.js.svg" alt="Build status" /></a>
     <a href="https://david-dm.org/discordjs/discord.js"><img src="https://img.shields.io/david/discordjs/discord.js.svg?maxAge=3600" alt="Dependencies" /></a>
+    <a href="https://www.patreon.com/discordjs"><img src="https://img.shields.io/badge/donate-patreon-F96854.svg" alt="Patreon" /></a>
   </p>
   <p>
     <a href="https://nodei.co/npm/discord.js/"><img src="https://nodei.co/npm/discord.js.png?downloads=true&stars=true" alt="NPM info" /></a>
   </p>
 </div>
 
+# Welcome!
+Welcome to the discord.js v11.6 documentation.
+The v11.6 release contains bugfixes from v11.5 and backports features from the in-development v12.
+
+v12 is still very much a work-in-progress, as we're aiming to make it the best it can possibly be before releasing.
+If you are fond of living life on the bleeding-edge, check out the master branch.
+
 ## About
-discord.js is a powerful [node.js](https://nodejs.org) module that allows you to interact with the
+discord.js is a powerful [Node.js](https://nodejs.org) module that allows you to interact with the
 [Discord API](https://discordapp.com/developers/docs/intro) very easily.
 
 - Object-oriented
@@ -44,6 +52,7 @@ For production bots, using @discordjs/opus should be considered a necessity, esp
 - One of the following packages can be installed for faster voice packet encryption and decryption:
     - [sodium](https://www.npmjs.com/package/sodium) (`npm install sodium`)
     - [libsodium.js](https://www.npmjs.com/package/libsodium-wrappers) (`npm install libsodium-wrappers`)
+- [uws](https://www.npmjs.com/package/@discordjs/uws) for a much faster WebSocket connection (`npm install @discordjs/uws`)
 
 ## Example usage
 ```js
@@ -67,7 +76,7 @@ client.login('token');
 * [Website](https://discord.js.org/) ([source](https://github.com/discordjs/website))
 * [Documentation](https://discord.js.org/#/docs)
 * [Guide](https://discordjs.guide/) ([source](https://github.com/discordjs/guide))
-* [Discord.js Discord server](https://discord.gg/bRCvFy9)
+* [discord.js Discord server](https://discord.gg/bRCvFy9)
 * [Discord API Discord server](https://discord.gg/discord-api)
 * [GitHub](https://github.com/discordjs/discord.js)
 * [NPM](https://www.npmjs.com/package/discord.js)
@@ -83,4 +92,4 @@ See [the contribution guide](https://github.com/discordjs/discord.js/blob/master
 
 ## Help
 If you don't understand something in the documentation, you are experiencing problems, or you just need a gentle
-nudge in the right direction, please don't hesitate to join our official [Discord.js Server](https://discord.gg/bRCvFy9).
+nudge in the right direction, please don't hesitate to join our official [discord.js Server](https://discord.gg/bRCvFy9).
